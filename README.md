@@ -20,11 +20,13 @@
     .timeline { border-left:3px solid #1a73e8; margin:2rem 0; padding-left:1rem; }
     .event { margin-bottom:1rem; position:relative; }
     .event::before { content:''; position:absolute; left:-8px; top:0; width:16px; height:16px; background:#1a73e8; border-radius:50%; }
+    .author { font-size:0.9rem; color:#888; margin-top:0.5rem; }
   </style>
 </head>
 <body>
   <header>
     <h1>Investigative Summary — 9/11 Interactive</h1>
+    <p class="author">Created by: Hadi</p>
     <p id="date">Updated: <span></span></p>
   </header>
 
@@ -102,3 +104,4 @@
   </script>
 </body>
 </html>
+
